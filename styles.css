@@ -1,0 +1,72 @@
+/* Here comes the GLOBAL settings */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Setting up the stage */
+main {
+    width: 375px;
+    height: 100%;
+    border: 1px solid black;
+}
+
+section {
+    width: 327px;
+    height: 442px;
+    margin: 0 auto;
+    padding: 40px;
+    /* border: 1px solid blue; */
+}
+
+
+/* Coloring the sections */
+main>section:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+    margin-top: 24px;
+    border-radius: 8px 8px 0 0;
+}
+
+main>section:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+}
+
+main>section:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+    margin-bottom: 24px;
+    border-radius: 0 0 8px 8px;
+}
+
+
+/* Setting up the typography */
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+/* Setting up the button */
+button {
+    width: 146px;
+    height: 48px;
+    border: 0;
+    border-radius: 24px;
+}
+
+/* Now, here comes the INDIVIDUAL settings */
+
+section>div {
+    border: 1px solid brown;
+}
